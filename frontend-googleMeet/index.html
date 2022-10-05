@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Google meet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    
+    <div id="sitebody">
+        
+        <!-- main part -->
+        <div id="main">
+            <div id="centralNameDiv">
+                <p id="centralName">昇永</p>
+            </div>
+            <button id="anchoredButtonMain" class="anchoredBotton" onclick="anchoredMain()"></button>
+            <div id="mute" >
+                <input type="checkbox" id="bigMuteimage"/>
+                <label for="bigMuteimage"></label>
+                <!-- <img src="mute.png" id="bigMuteimage"> -->
+                <span class="tooltiptextCentral">靜音</span>
+            </div>
+            <div id="centralLeftBottomDiv">
+                <img src="anchoredMe.png" id="anchoredIcon">
+                <p id="selfName">你</p>
+            </div>
+        </div>
+
+        <!-- right audience part -->
+        <div id="padRight">
+            <div id="right">
+                <div id="user1" class="user"> 
+                    <button id="crossButton1" class="removeBotton" onclick="remove1()"></button>
+                    <button id="anchoredButtonRight1" class="anchoredBotton anchoredBottonRight" onclick="anchoredRight1()"></button>
+                    <div class="rightCentralNameDiv" id="rightCentralNameDiv1">
+                        <p id="rightCentralName1">user1</p>
+                    </div>
+                    <div class="muteRight">
+                        <input type="checkbox" id="muteImg"/>
+                        <span class="tooltiptext">靜音</span>
+                    </div>
+                    <div class="leftBottomNameDiv" id="rightLeftBottomNameDiv1">
+                        <p id="rightLeftBottomName1">Name1</p>
+                    </div>
+                </div>
+                <div id="user2" class="user"> 
+                    <button id="crossButton2" class="removeBotton" onclick="remove2()"></button>
+                    <button id="anchoredButtonRight2" class="anchoredBotton anchoredBottonRight" onclick="anchoredRight2()"></button>
+                    <div class="rightCentralNameDiv" id="rightCentralNameDiv2">
+                        <p id="rightCentralName2">user2</p>
+                    </div>
+                    <div class="muteRight">
+                        <input type="checkbox" id="muteImg"/>
+                        <!-- <img src="mute.png" class="muteImg"/> -->
+                        <span class="tooltiptext">靜音</span>
+                    </div>
+                    <div class="leftBottomNameDiv" id="rightLeftBottomNameDiv2">
+                        <p id="rightLeftBottomName2">Name2</p>
+                    </div>
+                </div>
+                <div id="user3" class="user"> 
+                    <button id="crossButton3" class="removeBotton" onclick="remove3()"></button>
+                    <button id="anchoredButtonRight3" class="anchoredBotton anchoredBottonRight" onclick="anchoredRight3()"></button>
+                    <div class="rightCentralNameDiv" id="rightCentralNameDiv3">
+                        <p id="rightCentralName3">user3</p>
+                    </div>
+                    <div class="muteRight">
+                        <input type="checkbox" id="muteImg"/>
+                        <!-- <img src="mute.png" class="muteImg"/> -->
+                        <span class="tooltiptext">靜音</span>
+                    </div>
+                    <div class="leftBottomNameDiv" id="rightLeftBottomNameDiv3">
+                        <p id="rightLeftBottomName3">Name3</p>
+                    </div>
+                </div>
+                <div id="user4" class="user"> 
+                    <button id="crossButton4" class="removeBotton" onclick="remove4()"></button>
+                    <button id="anchoredButtonRight4" class="anchoredBotton anchoredBottonRight" onclick="anchoredRight4()"></button>
+                    <div class="rightCentralNameDiv"  id="rightCentralNameDiv4">
+                        <p id="rightCentralName4">user4</p>
+                    </div>
+                    <div class="muteRight">
+                        <input type="checkbox" id="muteImg"/>
+                        <!-- <img src="mute.png" class="muteImg"/> -->
+                        <span class="tooltiptext">靜音</span>
+                    </div>
+                    <div class="leftBottomNameDiv" id="rightLeftBottomNameDiv4">
+                        <p id="rightLeftBottomName4">Name4</p>
+                    </div>
+                </div>
+                <div id="user5" class="user"> 
+                    <button id="crossButton5" class="removeBotton" onclick="remove5()"></button>
+                    <button id="anchoredButtonRight5" class="anchoredBotton anchoredBottonRight" onclick="anchoredRight5()"></button>
+                    <div class="rightCentralNameDiv" id="rightCentralNameDiv5">
+                        <p id="rightCentralName5">user5</p>
+                    </div>
+                    <div class="muteRight">
+                        <input type="checkbox" id="muteImg"/>
+                        <!-- <img src="mute.png" class="muteImg"/> -->
+                        <span class="tooltiptext">靜音</span>
+                    </div>
+                    <div class="leftBottomNameDiv" id="rightLeftBottomNameDiv5">
+                        <p id="rightLeftBottomName5">Name5</p>
+                    </div>
+                </div>
+                <div id="user6" class="user additionalUser"> 
+                    <button id="crossButton6" class="removeBotton" onclick="remove6()"></button>
+                    <button id="anchoredButtonRight6" class="anchoredBotton anchoredBottonRight" onclick="anchoredRight6()"></button>
+                    <div class="rightCentralNameDiv" id="rightCentralNameDiv6">
+                        <p id="rightCentralName6">昇永</p>
+                    </div>
+                    <div class="muteRight">
+                        <input type="checkbox" id="muteImg"/>
+                        <span class="tooltiptext">靜音</span>
+                    </div>
+                    <div class="leftBottomNameDiv" id="rightLeftBottomNameDiv6">
+                        <p id="rightLeftBottomName6">你</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- bottomBar -->
+    <img src="bottomBar.png" id="bottomBar"/>
+
+    <script  type="text/javascript" src="main.js"></script>
+    
+</body>
+</html>

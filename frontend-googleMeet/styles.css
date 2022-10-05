@@ -1,0 +1,371 @@
+body { 
+    background-color:black
+}
+
+#sitebody{
+    margin: auto;
+    display:flex;
+    flex-direction: row;
+}
+
+#main{
+    position: relative;
+    width: 1200px;
+    height: 750px;
+    background-color: black;
+    text-align: center;
+    line-height: 600px;
+    display:flex;
+}
+
+#centralNameDiv{
+    font-size:10ch;
+    color:aliceblue;
+    background-color: green;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+
+    /* div align center */
+    margin:auto;
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    
+    /* text align center */
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+#mute{
+    position:relative;
+    display: inline-block;
+    background-color: black;
+    width:60px;
+    height:60px;
+    
+    
+    /* div align center */
+    margin:auto;
+    position:absolute;
+    top:0;
+    right:0;
+}
+#mute input[type="checkbox"] {
+    width: 0;
+    height: 0;
+    margin: 0;
+    border: 0 none;
+    padding: 0;
+}
+#mute input[type="checkbox"]{
+    content: url(mute.png);
+    width: 60px;
+    height:60px;
+    border-radius: 30px;    
+    
+    display: block;
+    overflow: hidden;
+}
+#mute input[type="checkbox"]:checked{
+    content: url(unmute.png);
+}
+
+/* 
+#bigMuteImage{
+    width: 80px;
+    height: 160px;
+    border-radius: 20px;
+}  */
+#mute .tooltiptextCentral{
+    visibility: hidden;
+    width: 60px;
+    height:20px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+
+    /* 定位 */
+    position: absolute;
+    top: 75px;
+    right:0px;  
+    /* text align center */
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+#mute:hover .tooltiptextCentral{
+    visibility: visible;
+}
+
+#mute .tooltiptextCentral::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%;  /* At the top of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+}
+
+
+
+
+#centralLeftBottomDiv{
+    width: 160px;
+    height: 60px;
+    background-color: black;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    /* div align center */
+    /* margin:auto;
+    position:absolute;
+    bottom:8px;
+    left:0; */
+
+    flex-direction: row;
+    align-self:end;
+    justify-self: start;
+
+    display: flex; 
+    align-items: center; 
+}
+#anchoredIcon{
+    height: 60px;
+    border-radius: 30px;
+    align-self: flex-start;
+}
+#selfName{
+    margin-left: 20px;
+    color:white;
+    font-size:medium;
+}
+
+#padRight{
+    position:relative;
+    display: flex;
+    width: 450px;
+    height: 750px;
+    background-color: black;
+    text-align: center;
+    line-height: 600px;
+    align-items: center;
+    justify-content: center;
+}
+#right{
+    width: 400px;
+    height: 550px;
+    background-color: black;
+    text-align: center;
+    line-height: 600px;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content: space-around;
+    align-content: flex-start;
+}
+
+.user{
+    position: relative;
+    width: 180px;
+    height: 160px;
+    border-radius: 25px;
+    margin:5px;
+    background-color: rgb(58, 58, 58);
+    text-align: center;
+    line-height: 600px;
+    display:flex;
+}
+.additionalUser{
+    display: none;
+}
+
+.rightCentralNameDiv{
+    font-size:3ch;
+    color:white;
+    
+    border-radius: 40px;
+    width: 80px;
+    height: 80px;
+
+    /* div align center */
+    margin:auto;
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+
+    /* text align center */
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+#rightCentralNameDiv1{
+    background-color: red;
+}
+#rightCentralNameDiv2{
+    background-color: orange;
+}
+#rightCentralNameDiv3{
+    background-color: rgb(162, 162, 0);
+}
+#rightCentralNameDiv4{
+    background-color: blue;
+}
+#rightCentralNameDiv5{
+    background-color: purple;
+}
+#rightCentralNameDiv6{
+    background-color: rgba(142, 32, 32, 0.241);
+}
+
+
+
+.muteRight{
+    width:40px;
+    height:40px;
+
+    margin:auto;
+    position:absolute;
+    top:5px;
+    right:5px;
+}
+
+.muteImg{
+    height:30px;
+    border-radius: 15px;
+}
+
+.muteRight input[type="checkbox"] {
+    width: 0;
+    height: 0;
+    margin: 0;
+    border: 0 none;
+    padding: 0;
+}
+.muteRight input[type="checkbox"]{
+    content: url(mute.png);
+    width: 40px;
+    height:40px;
+    border-radius: 20px;
+    opacity: 0.8;
+    
+    display: block;
+    overflow: hidden;
+}
+.muteRight input[type="checkbox"]:checked{
+    content: url(unmute.png);
+}
+
+.muteRight .tooltiptext{
+    visibility: hidden;
+    width: 40px;
+    height:15px;
+    font-size:x-small;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+
+    /* 定位 */
+    position: absolute;
+    top:45px;
+
+    /* text align center */
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+.muteRight:hover .tooltiptext{
+    visibility: visible;
+}
+.muteRight .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%;  /* At the top of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+}
+
+.leftBottomNameDiv{
+    font-size:3ch;
+    color:white;
+    width:80px;
+    height:40px;
+    border-radius: 20px;
+    background-color: rgb(58, 58, 58);;
+
+    display: flex; 
+    flex-direction: row;
+    align-items: center; 
+    align-self:end;
+    justify-self: start;
+    margin-left: 7px;
+}
+
+
+#bottomBar{
+    width: 1650px;
+    border-radius: 100px;
+}
+
+.removeBotton{
+    width: 40px;
+    height:40px;
+    border-radius: 20px;
+    background-image: url(cross.png);
+    background-size:cover;
+    border-width: 1px;
+    border-color: rgba(255, 0, 0, 0.619);
+
+    display:flex;
+    align-items: flex-start; 
+    justify-content: flex-start;
+
+    z-index: 1;
+    position: absolute;
+    top:5px;
+    left:5px;
+}
+
+.anchoredBotton{
+    background-image: url(anchoredIcon.png);
+    background-size:cover;
+    border-width: 1px;
+    border-color: black;
+
+    margin:auto;
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+
+    z-index: 1;
+    opacity:0.3;
+}
+.anchoredBotton:hover{
+    opacity:0.9;
+}
+.anchoredBottonRight{
+    width:70px;
+    height:25px;
+    border-radius: 10px;
+    background-color: black;
+}
+#anchoredButtonMain{
+    width:160px;
+    height:50px;
+    border-radius: 20px;
+    background-color: black;
+}
+
