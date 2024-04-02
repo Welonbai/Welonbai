@@ -1,9 +1,9 @@
 ### Hi there 👋
 
 For Intern recruiter, please refer following two url to see the projects that I put on my resume.  
-Deep learning project:
+Deep learning project:  
 https://github.com/Welonbai/ntustEEMachineLearningCourse
-Web frontend and backend project:
+Web frontend and backend project:  
 https://github.com/Welonbai/wp1111/tree/main/hw7
 
 Cover letter:
