@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-For Intern recruiter, please refer following two url to see the projects that I put on my resume.  
+For Intern recruiter, please look at following two url to see the projects that I put on my resume.  
 Deep learning project:  
 https://github.com/Welonbai/ntustEEMachineLearningCourse  
 Web frontend and backend project:  
