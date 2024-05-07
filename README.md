@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-For Intern recruiter, the following two links are the projects on my resume.
+For Intern recruiter, the following two links are the projects on my resume.  
 Deep learning project:  
 https://github.com/Welonbai/ntustEEMachineLearningCourse  
 Web frontend and backend project:  
