@@ -1,6 +1,6 @@
 # Hi there 👋
 
-I am Pai Shengyung. My background combines software engineering and applied machine learning, with experience in Python, PyTorch, data processing, model training, evaluation, and web development.
+I am Pai Shengyung. My current work focuses on AI and applied machine learning, mainly through my master's thesis on recommendation system robustness and my ongoing internship work on Python-based ML workflows.
 
 ## Thesis Research
 
